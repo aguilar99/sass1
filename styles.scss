@@ -1,7 +1,4 @@
-@import "variable";
-$fondo: #ff0000;
-$primer: #ce5555;
-$pcolor: #0000ff;
+@import "variables";
 
 body {
     background-color: $fondo; 
@@ -11,5 +8,11 @@ body {
     } 
     p {
         color:$pcolor;
+    }
+    div {
+        border: 1px solid $otra;
+        p{
+            color:white;
+        }
     }
 }
